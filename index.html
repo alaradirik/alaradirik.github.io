@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alara Dirik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+ 
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-inner">
+    <span class="name">Alara Dirik</span>
+    <div class="links">
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+    </div>
+  </div>
+</nav>
+ 
+<!-- MAIN CONTENT -->
+<main>
+ 
+  <!-- BIO -->
+  <div class="hero" id="bio">
+    <div class="hero-top">
+      <!-- Replace src with your photo -->
+      <img class="hero-photo" src="static/images/photo.jpeg" alt="Alara Dirik" />
+      <div class="hero-intro">
+        <h1>Alara Dirik</h1>
+        <div class="tagline">PhD Student in Computer Science</div>
+        <div class="affiliation">
+          <a href="https://www.imperial.ac.uk/">Imperial College London</a> · DeepMind Scholar
+        </div>
+      </div>
+    </div>
+    <p class="hero-bio">
+      I am a PhD student at Imperial College London, advised by 
+      <a href="https://scholar.google.com/citations?user=QKOH5iYAAAAJ&hl=en">Prof. Stefanos Zafeiriou</a>. My research focuses on 
+      generative modeling for vision, neural rendering, and intrinsic scene 
+      understanding. I have published at venues including CVPR, ECCV, 
+      SIGGRAPH, WACV, and NeurIPS.
+    </p>
+    <p class="hero-bio">
+      Before my PhD, I worked as a Machine Learning Engineer at 
+      <a href="https://huggingface.co/">Hugging Face</a>, where I was a core 
+      contributor to the Transformers library.
+    </p>
+    <div class="hero-links">
+      <a href="mailto:a.dirik22@imperial.ac.uk"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://scholar.google.com/citations?user=VYPjkBsAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> Scholar</a>
+      <a href="https://twitter.com/alaradirik" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="https://github.com/alaradirik" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com/in/alaradirik" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+ 
+  <!-- NEWS -->
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news-list">
+        <li class="news-item">
+            <span class="news-date">March 2026</span>
+            <span class="news-content">
+              Released <strong>Geo-ID</strong>, a test-time method for cross-view consistent intrinsic estimation via geometric consensus.
+            </span>
+          </li>
+      <li class="news-item">
+        <span class="news-date">Feb 2026</span>
+        <span class="news-content">
+          <strong>ReasonX</strong> accepted to <strong>CVPR 2026</strong> — 
+          an MLLM-guided framework for intrinsic image decomposition. 
+          Collaboration with <a href="https://annafruhstuck.com/">Anna Frühstück</a> at Adobe Research.
+        </span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Summer 2026</span>
+        <span class="news-content">
+          Research internship at <strong>Adobe Research</strong>, London.
+        </span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2025</span>
+        <span class="news-content">
+          Released <strong>PRISM</strong>, a unified framework for photorealistic reconstruction and intrinsic scene modeling.
+        </span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Summer 2025</span>
+        <span class="news-content">
+          Research internship at <strong>Adobe Research</strong>, London.
+        </span>
+      </li>
+    </ul>
+  </section>
+ 
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul class="pub-list">
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/geoid.png" alt="Geo-ID teaser" />
+        <div class="pub-body">
+          <div class="pub-title">Geo-ID: Test-Time Geometric Consensus for Cross-View Consistent Intrinsics</div>
+          <div class="pub-authors"><span class="me">Alara Dirik</span>, Stefanos Zafeiriou</div>
+          <div class="pub-venue">Preprint</div>
+          <div class="pub-links">
+            <a href="http://arxiv.org/abs/2603.13859">Paper</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/reasonx.png" alt="ReasonX teaser" />
+        <div class="pub-body">
+          <div class="pub-title">ReasonX: MLLM-Guided Intrinsic Image Decomposition</div>
+          <div class="pub-authors"><span class="me">Alara Dirik</span>, Tuanfeng Y. Wang, Duygu Ceylan, Stefanos Zafeiriou, Anna Frühstück</div>
+          <div class="pub-venue">CVPR 2026</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2512.04222">Paper</a>
+            <a href="https://github.com/alaradirik/reasonx">Code</a>
+            <a href="https://alaradirik.github.io/reasonx/">Project Page</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/prism.png" alt="PRISM teaser" />
+        <div class="pub-body">
+          <div class="pub-title">PRISM: A Unified Framework for Photorealistic Reconstruction and Intrinsic Scene Modeling</div>
+          <div class="pub-authors"><span class="me">Alara Dirik</span>, Tuanfeng Y. Wang, Duygu Ceylan, Stefanos Zafeiriou, Anna Frühstück</div>
+          <div class="pub-venue">Preprint</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2504.14219">Paper</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/avatar3d.jpeg" alt="3D Avatar teaser" />
+        <div class="pub-body">
+          <div class="pub-title">Text and Image Guided 3D Avatar Generation and Manipulation</div>
+          <div class="pub-authors"><span class="me">Alara Dirik</span>*, Zehranaz Canfes*, Furkan Atasoy*, Pınar Yanardağ</div>
+          <div class="pub-venue">WACV 2023 <span class="award">· Spotlight</span></div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2202.06079">Paper</a>
+            <a href="https://github.com/catlab-team/latent3D_code">Code</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/xdgan.png" alt="XDGAN teaser" />
+        <div class="pub-body">
+          <div class="pub-title">XDGAN: Multi-Modal 3D Shape Generation in 2D Space</div>
+          <div class="pub-authors">Hassan Abu Alhaija, <span class="me">Alara Dirik</span>, Masha Shugrina, Andre Knorig, Sanja Fidler</div>
+          <div class="pub-venue">BMVC 2022</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2210.03007">Paper</a>
+            <a href="https://research.nvidia.com/labs/toronto-ai/XDGAN/">Project Page</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/fairstyle.png" alt="FairStyle teaser" />
+        <div class="pub-body">
+          <div class="pub-title">FairStyle: Debiasing StyleGAN2 with Style Channel Manipulations</div>
+          <div class="pub-authors"><span class="me">Alara Dirik</span>*, Cemre Karabas*, Eylul Yalcinkaya, Pınar Yanardağ</div>
+          <div class="pub-venue">ECCV 2022</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2202.06240">Paper</a>
+            <a href="https://drive.google.com/drive/folders/1PW7w80ZKuLnjnxJNeNkYxXUFvVYi6I6H">Code</a>
+            <a href="https://catlab-team.github.io/fairstyle/">Project Page</a>
+          </div>
+        </div>
+      </li>
+
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/midispace.png" alt="MIDISpace teaser" />
+        <div class="pub-body">
+          <div class="pub-title">MIDISpace: Finding Linear Directions in Latent Space for Music Generation</div>
+          <div class="pub-authors">Melikşah Türker, <span class="me">Alara Dirik</span>, Pınar Yanardağ</div>
+          <div class="pub-venue">SIGCHI C&amp;C 2022 <span class="award">· Honorable Mention</span></div>
+          <div class="pub-links">
+            <a href="https://dl.acm.org/doi/10.1145/3527927.3532790">Paper</a>
+            <a href="https://github.com/catlab-team/midispace">Code</a>
+            <a href="https://catlab-team.github.io/midispace/">Project Page</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/stylemc.png" alt="StyleMC teaser" />
+        <div class="pub-body">
+          <div class="pub-title">StyleMC: Multi-Channel Based Fast Text-Guided Image Generation and Manipulation</div>
+          <div class="pub-authors">Umut Kocasari, <span class="me">Alara Dirik</span>, Mert Tiftikci, Pınar Yanardağ</div>
+          <div class="pub-venue">WACV 2022</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2112.08493">Paper</a>
+            <a href="https://github.com/catlab-team/stylemc">Code</a>
+            <a href="https://catlab-team.github.io/stylemc/">Project Page</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/latentmapper.png" alt="3D-LatentMapper teaser" />
+        <div class="pub-body">
+          <div class="pub-title">3D-LatentMapper: View Agnostic Reconstruction of 3D Shapes from a Single Image</div>
+          <div class="pub-authors"><span class="me">Alara Dirik</span>, Pınar Yanardağ</div>
+          <div class="pub-venue">NeurIPS 2022, WiML Workshop</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2212.02184">Paper</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/ctrlgen.png" alt="Controlled Cue Generation teaser" />
+        <div class="pub-body">
+          <div class="pub-title">Controlled Cue Generation for Play Scripts</div>
+          <div class="pub-authors"><span class="me">Alara Dirik</span>, Hilal Donmez, Pınar Yanardağ</div>
+          <div class="pub-venue">NeurIPS 2021, CTRLGen Workshop <span class="award">· Best Paper Award</span></div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2112.06953">Paper</a>
+            <a href="https://catlab-team.github.io/cuegen/">Project Page</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="pub-item">
+        <img class="pub-teaser" src="static/images/minerl.jpg" alt="Diamond teaser" />
+        <div class="pub-body">
+          <div class="pub-title">Diamond: A MineRL Competition on Training Sample-Efficient Agents</div>
+          <div class="pub-authors">Alara Dirik et al.</div>
+          <div class="pub-venue">NeurIPS 2021, Competition Track</div>
+          <div class="pub-links">
+            <a href="https://www.aicrowd.com/challenges/neurips-2021-minerl-diamond-competition">Project Page</a>
+          </div>
+        </div>
+      </li>
+ 
+    </ul>
+    <p style="font-size: 0.82rem; color: var(--text-tertiary); margin-top: 0.8rem;">* denotes equal contribution</p>
+  </section>
+ 
+</main>
+
+<footer>
+  &copy; 2026 Alara Dirik · Built with <span style="color:red;">&hearts;</span>
+</footer>
+
+</body>
+</html>
